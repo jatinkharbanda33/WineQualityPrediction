@@ -148,7 +148,7 @@ conf_mat = confusion_matrix(y_test, y_pred)
 
 # Heatmap Confusion Matrix
 sns.heatmap(conf_mat, cmap='Reds', annot=True, fmt='.1f')
-plt.title('Confusion Matrix dari Prediksi Random Forest')
+plt.title('Confusion Matrix Random Forest')
 plt.xlabel('Predicted')
 plt.ylabel('Actual')
 plt.show()
